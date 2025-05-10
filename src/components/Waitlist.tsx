@@ -1,7 +1,7 @@
 import mail from "./../assets/mail.svg";
 import phone from "./../assets/phone.jpg";
 import grad from "./../assets/grad.png";
-import spectra from './../assets/spectra_2.png'
+import spectra from './../assets/spectra_logo@2x.png'
 import { useState } from "react";
 import axios from 'axios'
 
