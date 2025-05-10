@@ -3,6 +3,7 @@ import phone from "./../assets/phone.jpg";
 import grad from "./../assets/grad.png";
 import spectra from './../assets/spectra_2.png'
 import { useState } from "react";
+import axios from 'axios'
 
 function Waitlist() {
   const [email, setEmail] = useState("");
@@ -18,8 +19,15 @@ function Waitlist() {
       return;
     }
     // Success case - replace with your waitlist submit logic
+    axios
+    .post("https://formspree.io/f/mpwdlerj", {
+        email
+    },
+    { headers: {'Accept': 'application/json'}})
+    .then(response => console.log(response))
+    .catch(error => console.log(error))
+
     alert("Thank you for joining our waitlist!");
-    // Reset email field after successful submission
     setEmail("");
   };
   return (
