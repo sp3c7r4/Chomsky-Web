@@ -8,8 +8,8 @@ function Waitlist() {
             <div className='py-2 bg-[rgba(50,181,130,0.2)] px-4 rounded-full inline-block w-fit'>
               <p className='text-[13px] font-medium'>Be the first to experience Chomsky 😊</p>
             </div>
-            <div>
-              Our app is almost<br/>here.Join <span className='t'>the waitlist</span><br/>to get early access
+            <div className='text-[60px] font-semibold leading-[1.1]'>
+               <span className='italic'>the waitlist</span><br/>to get early access
             </div>
           </div>
           <div className='h-full w-full border border-green-300'>
