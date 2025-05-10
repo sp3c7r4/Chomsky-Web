@@ -3,11 +3,11 @@ import logo_svg from './../assets/logo_svg.svg'
 
 function Banner() {
   return (
-    <div className="w-full bg-[#10110C]">
-      <div className="flex px-2 justify-between items-center py-3 w-full max-w-screen-xl mx-auto relative z-20">
+    <div className="fixed w-full z-100 pt-[10px] md:pt-[50px]  backdrop-blur-md">
+      <div className="flex px-4  justify-between items-center py-3 w-full max-w-screen-xl mx-auto relative z-20">
         <div className='flex flex-row items-center gap-1'>
-          <img src={logo} className='w-8 h-8 md:w-10 md:h-10 border-black'/>
-          <img src={logo_svg} className='w-24 md:w-32 h-6 md:h-9'/>
+          <img src={logo} className='w-8 h-8 md:w-10 md:h-10 -black'/>
+          <img src={logo_svg} className='w-24 md:w-32 h-7 md:h-9'/>
         </div> 
         <nav className='text-white hidden text-[15px] gap-10 justify-between md:flex font-medium'>
           <a href='#' className='text-[#32B582]'>Home</a>
