@@ -10,7 +10,7 @@ function Banner() {
           <img src={logo_svg} className='w-full h-9'/>
         </div>
         <nav className='text-white text-[15px] gap-10 justify-between flex font-medium'>
-          <a href='#' className='text-[#32B582]'>Home</a>
+          <a href='#' className='text-[rgb(50,181,130)]'>Home</a>
           <a href='#'>Downloads</a>
           <a href='#'>About</a>
           <a href='#'>Contact</a>
