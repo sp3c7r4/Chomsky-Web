@@ -19,6 +19,7 @@ function Waitlist() {
       return;
     }
     // Success case - replace with your waitlist submit logic
+    // Made some changes to keep commit streak
     axios
     .post("https://formspree.io/f/mpwdlerj", {
         email
